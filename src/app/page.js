@@ -10,11 +10,11 @@ export default async function Home() {
     <>
     <h1>Skeleton App</h1>
 
-        {posts.map((post) => {
+        {results.map((result) => {
           return (
-            <div key={post.id}>
-              <Link href={`/posts/${post.id}`}>{post.title}({post.userId})
-              </Link>
+            <div key={result.id}>
+              <li>{'${result.name}} {result.age} {result.id}'}
+              </li>
             </div>
           );
         })}
