@@ -10,16 +10,22 @@ export default async function Home() {
     <>
     <h1>Skeleton App</h1>
 
-        {results.map((result) => {
+        {/* {results.map((result) => {
           return (
             <>
-             {/* <div key={result.id}>
+              <div key={result.id}>
                <li>{'${result.name}} {result.age} {result.id}'}
                </li>
-             </div> */}
+             </div> 
             </>
           );
-        })}
+        })} */}
+
+        return (
+          <>
+          <p>Testing</p>
+          </>
+        );
         </>
   );
 }
