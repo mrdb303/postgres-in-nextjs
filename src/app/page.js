@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 
 export default async function Home() {
 
-  const names = await sql`SELECT * FROM names`;
-  let results = await response.json();
+  // const names = await sql`SELECT * FROM names`;
+  // let results = await response.json();
 
   return (
     <>
@@ -12,10 +12,12 @@ export default async function Home() {
 
         {results.map((result) => {
           return (
-            <div key={result.id}>
-              <li>{'${result.name}} {result.age} {result.id}'}
-              </li>
-            </div>
+            <>
+             {/* <div key={result.id}>
+               <li>{'${result.name}} {result.age} {result.id}'}
+               </li>
+             </div> */}
+            </>
           );
         })}
         </>
