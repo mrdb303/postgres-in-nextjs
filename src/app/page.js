@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default async function Home() {
 
-  const names = await sql(`SELECT * FROM names`);
+  const names = await sql`SELECT * FROM names`;
   let results = await response.json();
 
   return (
