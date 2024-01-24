@@ -1,3 +1,4 @@
+/*
 import Link from "next/link";
 
 export default async function PostsPage({searchParams}) {
@@ -18,3 +19,4 @@ export default async function PostsPage({searchParams}) {
     </div>
   );
 }
+*/
