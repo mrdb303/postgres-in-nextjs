@@ -14,7 +14,7 @@ export default async function Home() {
           return (
             <>
               <div key={result.id}>
-               <li>{'${result.name}} {result.age} '}  {/* */}
+               <li>{'${results.name}} {results.age} '}  {/* */}
                </li>
              </div> 
             </>
